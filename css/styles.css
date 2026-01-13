@@ -56,7 +56,6 @@ nav ul {
   display: flex;
   gap: 40px;
   margin: 0;
-  
 }
 .spc a {
   position: relative;
@@ -131,34 +130,33 @@ button:hover {
   font-size: 16px;
   line-height: 1.5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
 }
 .icon {
   width: 64px;
   height: 64px;
-  background-color: #F4F4FD;
-  
+  background-color: #f4f4fd;
 }
 .ilk-simgeler {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
   width: 264px;
   height: 112px;
-  border: 1px solid #8E8F99;
+  border: 1px solid #8e8f99;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
 }
 .birinci {
-  
   padding: 188px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image:
-      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("../images/background.png");
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -219,18 +217,16 @@ button:hover {
 
 .ikinci-simgeler,
 .ucuncu-simgeler {
-  border: 1px solid #4D5AE5;
+  border: 1px solid #4d5ae5;
   border-radius: 50%;
-  fill: #4D5AE5;
-  background-color: #4D5AE5;
+  fill: #4d5ae5;
+  background-color: #4d5ae5;
   padding: 5px;
-
 }
 
 .ikinci-simgeler:hover {
-  color: #404BBF;
-  fill: #404BBF;
-
+  color: #404bbf;
+  fill: #404bbf;
 }
 .yedi {
   display: flex;
@@ -244,7 +240,8 @@ button:hover {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   width: 264px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .yedi h3 {
   display: flex;
@@ -314,7 +311,8 @@ button:hover {
 }
 
 .portfolio li:hover {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .portfolio h3 {
   font-size: 20px;
@@ -348,7 +346,6 @@ footer {
   flex-direction: row;
   gap: 120px;
   padding-left: 156px;
-  
 }
 .logo {
   flex-direction: column;
@@ -387,4 +384,3 @@ a {
 ul {
   list-style-type: none;
 }
-
