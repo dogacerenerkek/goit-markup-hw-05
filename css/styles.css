@@ -60,13 +60,26 @@ nav ul {
 .spc a {
   position: relative;
   text-decoration: none;
+  padding-bottom: 3px;
+}
+
+.spc a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 250ms ease;
 }
 .spc a:hover::after {
-  content: "";
-  text-decoration: underline;
-  position: absolute;
-  transition: text-decoration 250ms ease;
+  background-color: #404bbf;
 }
+.spc a.active::after {
+  width: 100%;
+}
+
 header {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
