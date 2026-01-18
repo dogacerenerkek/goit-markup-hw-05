@@ -243,7 +243,6 @@ button:hover {
   top: 50%;
   transform: translateY(-50%);
   fill: #2e2f42;
-  
 }
 
 .input-wrapper input {
@@ -251,17 +250,16 @@ button:hover {
 }
 .close-icon {
   position: absolute;
-    
-    top: 24px;
-    right: 24px;
-border: 1px solid rgba(0, 0, 0, 0.1);
-border-radius: 50%;
-background-color: rgba(231, 233, 252, 1);
-width: 24px;
-height: 24px;
 
-padding: 6px;
+  top: 24px;
+  right: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: rgba(231, 233, 252, 1);
+  width: 24px;
+  height: 24px;
 
+  padding: 6px;
 }
 .icon {
   width: 64px;
@@ -530,27 +528,27 @@ footer p {
   height: 40px;
   border: 1px solid #fff;
   border-radius: 4px;
-  background-color: #2E2F42;
+  background-color: #2e2f42;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 .subscribe-input:hover {
-  border: 1px solid #31D0AA;
+  border: 1px solid #31d0aa;
 }
 .subscribe-button {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   width: 165px;
   height: 40px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 .subscribe-button:hover {
-background-color: #31D0AA;
-border: 1px solid #31D0AA;
+  background-color: #31d0aa;
+  border: 1px solid #31d0aa;
 }
 body {
   font-family: "Roboto", "Raleway", "Open Sans", "Helvetica Neue", sans-serif;
