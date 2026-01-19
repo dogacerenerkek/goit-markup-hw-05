@@ -154,6 +154,7 @@ button:hover {
   display: none;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 .is-open {
   display: flex;
@@ -242,7 +243,18 @@ button:hover {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  fill: #2e2f42;
+  color: #2e2f42;
+}
+.input-wrapper:focus-within .input-icon {
+  color: #4d5ae5;
+}
+.input-wrapper input:focus {
+  border-color: #4d5ae5;
+}
+.close-icon:hover {
+  color: #fff;
+  background-color: #404bbf;
+  border: 1px solid #404bbf;
 }
 
 .input-wrapper input {
